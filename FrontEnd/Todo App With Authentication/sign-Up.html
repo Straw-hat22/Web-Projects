@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo APP</title>
+    <link rel="stylesheet" href="sign-Up.css">
+</head>
+<body>
+    <header><h1>Todo App</h1></header>
+    <section class="section" id="section">
+
+        <div class="main-div" id="main-div">
+            <form class="main-form" id="main-form">
+                <h2>Welcome</h2>
+                <label for="name">Username</label>
+                <input type="text" required id="name" autofocus>
+
+                <label for="password">password</label>
+                <input type="password" required id="password" minlength="8">
+
+                <div id="error-msg"></div>
+                <input type="submit" class="register" id="register" value="Register">
+                <input type="submit" class="log-in" id="log-in" value="Log In">
+            </form>
+        </div>
+
+    </section>
+    <script src="sign-Up.js"></script>
+</body>
+</html>

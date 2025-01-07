@@ -1,0 +1,113 @@
+/* Reset default margin and padding */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Search box styling */
+#search-box {
+    margin-top: 10px;
+    margin-right: 20px; /* Adjusted margin for spacing */
+    text-align: right; /* Align search box content to the right */
+}
+
+#search-box-text {
+    padding: 5px;
+    font-size: 14px;
+    width: 180px; /* Adjusted width for smaller search box */
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* Main container for items */
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Form styling */
+#item-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#item-form input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#item-form input[type="submit"] {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#item-form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* List of items */
+#items-list {
+    list-style: none;
+    padding: 0;
+}
+
+.list-item {
+    padding: 10px;
+    background: #f4f4f4;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+}
+
+.list-item span {
+    flex: 1; /* Allow text to take up remaining space */
+    overflow: hidden; /* Prevent overflow */
+    white-space: nowrap; /* Prevent wrapping */
+    text-overflow: ellipsis; /* Show ellipsis if text overflows */
+}
+
+.delete {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px; /* Adjust spacing between text and button */
+}
+
+.delete:hover {
+    background-color: #d32f2f;
+}

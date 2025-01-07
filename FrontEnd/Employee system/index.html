@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Employee system</title>
+        <meta name="describtion" content="Welcome to our system">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <header class="header">
+            <h1>Welcome to the system</h1>
+        </header>
+        <div>
+            <form class="main-form" id="form">
+                <div class="main-form-header">
+                    <h2>Add New Employee</h2>
+                </div>
+                <input type="text" placeholder="Name..." required id="name">
+                <input type="Email" placeholder="Emial..." required id="email">
+                <input type="text" placeholder="Phone Number" required id="mobile">
+                <input type="submit" id="submit-button" value="Store this Data">
+                <input type="hidden" id="content-edit">
+            </form>
+        </div>
+        <div class="main-table">
+            <h1>All Employees</h1>
+            <table id="table" border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Mobile</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
