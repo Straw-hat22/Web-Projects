@@ -51,7 +51,6 @@ regButton.addEventListener('click', e => {
         errorStyle();
         return;
     }
-    console.log(passwordValue.length);
     if (passwordValue.length < 8) {
         error.innerText = "Password must be at least 8 characters long.";
         error.style.background = 'red';
