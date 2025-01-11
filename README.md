@@ -37,20 +37,14 @@ Here’s an overview of what you’ll find in each folder:
    - **Goals**:
      - Learn how to build RESTful APIs.
      - Practice working with databases (e.g., MongoDB, MySQL).
-     - Implement authentication and authorization.
-   - **Projects**:
-     - [Simple REST API](#)
-     - [User Authentication System](#)
+     - Implement authentication and authorization
 
 ### 3. **Laravel Projects** (Coming Soon)
    - **Description**: This folder will contain projects built with Laravel, a PHP framework for web development.
    - **Goals**:
      - Learn the basics of Laravel (routing, controllers, views).
      - Build full-stack applications with Laravel.
-     - Practice working with Eloquent ORM and Blade templates.
-   - **Projects**:
-     - [Blog Application](#)
-     - [Task Management System](#)
+     - Practice working with Eloquent ORM and Blade templates
 
 ---
 
