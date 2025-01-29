@@ -28,11 +28,11 @@ Here’s an overview of what you’ll find in each folder:
      - Implement authentication and authorization
      - also CRUD operations are very important
 
-### 3. **Laravel Projects** (Coming Soon)
+### 3. **Laravel Projects** 
    - **Description**: This folder will contain projects built with Laravel, a PHP framework for web development.
    - **Goals**:
      - Learn the basics of Laravel (routing, controllers, views).
-     - Build full-stack applications with Laravel.
+     - Build applications with Laravel.
      - Practice working with Eloquent ORM and Blade templates
 
 ## Security Note 🔒
